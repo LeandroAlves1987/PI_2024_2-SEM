@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+}
+
+.top-bar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.top-bar .menu a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #a74343;
+}
+
+.hero {
+    background-image: url('./Imagens/ImgPrincipal.png');
+    background-size: 100%;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 920px;
+    height: 40px;
+    border: none;
+    border-radius: 2px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-right: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero-content p {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.options {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 40px;
+    background-color: white;
+}
+/* Ajuste geral dos cards */
+.option-card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+}
+
+.option-card a {
+    text-decoration: none;
+    color: #000;
+    height: 30px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Tamanho e posicionamento da imagem */
+.card-img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.option-card:hover {
+    transform: scale(1.05);
+}
+
+.text_menu{
+    margin-top: -34px;
+}
